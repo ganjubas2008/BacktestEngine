@@ -1,7 +1,7 @@
 
-# TradeSim: A Trading Strategy Backtester and Simulator
+# BacktestEngine: A Trading Strategy Backtester and Simulator
 
-**TradeSim** is a Python-based trading strategy backtesting framework. It allows users to simulate various trading strategies, analyze their performance, and calculate critical trading metrics like Sharpe ratio, Shortino ratio, total PnL, and maximum drawdown. The project supports custom strategy generation, including random actions and pattern-based (candle) strategies, with built-in data management for historical trade data.
+**BacktestEngine** is a Python-based trading strategy backtesting framework. It allows users to simulate various trading strategies, analyze their performance, and calculate critical trading metrics like Sharpe ratio, Shortino ratio, total PnL, and maximum drawdown. The project supports custom strategy generation, including random actions and pattern-based (candle) strategies, with built-in data management for historical trade data.
 
 ## Features
 
@@ -93,7 +93,7 @@ Max PnL Drawdown: -35.60
 ## Folder Structure
 
 ```
-TradeSim/
+BacktestEngine/
 │
 ├── md_sim/               # Folder containing the CSV files for DOGE and PEPE
 │   ├── bbo_dogeusdt.csv  # BBO data for DOGE
